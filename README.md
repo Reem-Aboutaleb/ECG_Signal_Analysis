@@ -14,19 +14,17 @@ This project analyzes ECG signals and visualizes corresponding heart rate data u
 - **Programming Languages**: Python
 - **Libraries**: Pandas, NumPy, Matplotlib
 
-## Methodology
-- The ECG data is filtered and analyzed for key features like wave durations and amplitudes.
-- Visualizations are created to showcase the ECG signal and heart rate over specific time windows.
-
 ## Key Features
-1. Custom function to extract features from ECG data.
-2. Visualization of ECG signals and heart rate.
-3. Calculation of important cardiac intervals (PR, QT, RR).
+1. Custom function to filter and analyze ECG data.
+2. Visualization of ECG signals and heart rate trends.
+3. Calculation of cardiac intervals (PR, QT, RR) and average heart rate.
 
 ## Results
-- **Sample Graph:**
-  ![ECG Signal and Heart Rate](example_graph.png) *(Upload this graph if available)*
+- **ECG Signal and Heart Rate Graph:**
+  
+  ![ECG Signal and Heart Rate](ECG%20Signal%20and%20Heart%20Rate.png)
+
 ## How to Run
-1. Install Python and required libraries:
+1. Install required libraries:
    ```bash
    pip install pandas numpy matplotlib
